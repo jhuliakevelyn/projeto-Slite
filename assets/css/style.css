@@ -103,7 +103,8 @@
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      background-color: #ffbda6;
+      background-color: white;
+      border: 2px solid #faa5bc;
       width: 400px;
       height: 90px;
       padding: 15px 20px;
@@ -177,13 +178,13 @@
 }
 
 .logos {
-  margin-top: 50px;
-  background-color: #faa5bc;
+  margin: 50px 0px;
+
   padding: 18px;
   width: 100vw;
 
   & p {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   & .logo-brands {
@@ -197,4 +198,44 @@
       height: 100%;
     }
   }
+}
+
+.textDesktop {
+  padding: 30px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+
+  & h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  p {
+    font-size: 20px;
+  }
+  .pageDesktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+  }
+}
+& img.frameDesktop {
+  width: 1000px;
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+
+& img.bgDesktop {
+  width: 1040px;
+  position: absolute;
+  right: 265px;
+}
+
+& .listDesktop {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
